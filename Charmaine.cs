@@ -1,6 +1,6 @@
 using System;
 
-namespace introduction 
+namespace students 
 {
     class Charmaine 
     {

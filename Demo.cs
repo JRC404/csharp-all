@@ -1,8 +1,8 @@
 using System;
 
-namespace students
+namespace introduction
 {
-    class Dean
+    class Demo
     {
         
     }
