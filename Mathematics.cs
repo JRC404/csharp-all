@@ -1,28 +1,23 @@
 using System;
 
-namespace Logic 
+namespace logic 
 {
     class Mathematics
     {
-        // encapsulation
-        public double Addition(double numberOne, double numberTwo) // capitalised is best.. but not essential here...
+        //what will be returned = int in this case
+
+        // int = -2,147,483,648 to 2,147,483,647 - 11
+        // double = 1.7E +/- 308 (15 digits) - 11.5 
+        // float = 3.4E +/- 38 (7 digits)  - 11.5f
+        // decimal - 11.5m
+        public double Addition(double numberOne, double numberTwo)
         {
             return numberOne + numberTwo;
-        }
-        public double Subtraction(double numberOne, double numberTwo)
-        {
-            return numberOne - numberTwo;
-        }
-        public decimal Multiplication(decimal numberOne, decimal numberTwo)
-        {
-            return numberOne * numberTwo;
         }
         // waaaaait a minute.
         public float Division(float numberOne, float numberTwo)
         {
-            // decimal = floating point number
-            // 0.000
             return numberOne / numberTwo;
-        }
+        } 
     }
 }
